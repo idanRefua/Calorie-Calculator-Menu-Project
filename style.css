@@ -1,0 +1,76 @@
+body {
+  background: rgb(255, 215, 254);
+  background: linear-gradient(
+    203deg,
+    rgba(255, 215, 254, 1) 0%,
+    rgba(238, 255, 252, 1) 25%,
+    rgba(235, 255, 233, 1) 50%,
+    rgba(249, 255, 229, 1) 75%,
+    rgba(255, 205, 254, 1) 100%
+  );
+  min-height: 100vh;
+}
+
+#main-title {
+  font-size: 2.7em;
+  text-shadow: 4px 4px black;
+  color: darkorange;
+  border-bottom: darkorange 2px solid;
+  font-weight: bold;
+}
+
+.card {
+  margin: 10px;
+  background-color: rgb(197, 194, 194) !important;
+  height: 350px !important;
+  width: 260px !important;
+}
+
+#calories-menu {
+  background: rgb(213, 243, 255);
+  background: linear-gradient(
+    149deg,
+    rgba(213, 243, 255, 1) 0%,
+    rgba(208, 229, 255, 1) 100%
+  );
+  padding: 40px;
+  border-radius: 15px 15px 15px;
+}
+
+.col-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(170, 0, 125);
+  border-bottom: 2px solid rgb(170, 0, 125);
+}
+
+.col-body {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.plus-btn {
+  background-color: rgb(95, 255, 111);
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 8px;
+}
+
+.minus-btn {
+  background-color: rgb(255, 126, 126);
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 8px;
+}
+
+.qty-btn {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.p-sum {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: rgb(217, 0, 0);
+}
